@@ -1,6 +1,7 @@
 import React from "react";
 import CreateUser from "./CreateUser";
 import { AddTask } from "./AddTask";
+import { ToDoList } from "./ToDoList";
 
 
 
@@ -8,8 +9,9 @@ import { AddTask } from "./AddTask";
 const Home = () => {
 	return (
 		<div className="text-center">
-			<CreateUser/>
-			<AddTask/>
+			<ToDoList/>
+			 {/* <AddTask/>
+			 <CreateUser/>  */}
 		</div>
 	);
 };
